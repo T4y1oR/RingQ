@@ -23,30 +23,25 @@ https://github.com/T4y1oR/RingQ
    ```
    Create.exe mimikatz.exe
    ```
-
+https://github.com/T4y1oR/RingQ/blob/main/image-20240511163723965.png
 
 2. 执行 RingQ.exe    <!--内置反沙箱等等等机制 执行后有些许延迟 耐心一会儿-->
 
    ```
    RingQ.exe
    ```
-
-
+https://github.com/T4y1oR/RingQ/blob/main/image-20240511163838236.png
+https://github.com/T4y1oR/RingQ/blob/main/image-20240511172315793.png
 
 ### **微步**（2024.05.11更新）
-
+https://github.com/T4y1oR/RingQ/blob/main/image-20240511162750465.png
 
 ### **企业360**（2024.05.11更新）
-
+https://github.com/T4y1oR/RingQ/blob/main/image-20240511162705205.png
+https://github.com/T4y1oR/RingQ/blob/main/image-20240511165253870.png
 
 ### **火绒（2024.05.11更新）**
-
-
-
-
-~~~~
-
-~~~~
+https://github.com/T4y1oR/RingQ/blob/main/image-20240511162712447.png
 
 
 
