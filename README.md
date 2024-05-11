@@ -23,7 +23,7 @@ https://github.com/T4y1oR/RingQ
    ```
    Create.exe mimikatz.exe
    ```
-https://github.com/T4y1oR/RingQ/blob/main/image-20240511163723965.png
+/main/image-20240511163723965.png
 
 2. 执行 RingQ.exe    <!--内置反沙箱等等等机制 执行后有些许延迟 耐心一会儿-->
 
