@@ -11,7 +11,7 @@
 
 不用关心怎么实现的免杀，助力每一位像我这样的脚本小子快速实现免杀，hvv尽快打穿点目标内网。 
 
-支持一键免杀上线CS、fscan、mimikatz ...
+支持bypass 360 火绒 Windows Defender，一键免杀上线CS、fscan、mimikatz ...
 
 
 
