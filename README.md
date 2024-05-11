@@ -18,14 +18,14 @@
 
 ### 使用方法：
 
-1. 你的任意exe工具，放在与Create.exe 同文件夹下运行即可。
+1. 你的任意exe工具，放在与Create.exe 同文件夹下运行即可，会生成一个main.txt文件。
 
    ```
    Create.exe mimikatz.exe
    ```
 ![](https://github.com/T4y1oR/RingQ/blob/main/image-20240511163723965.png)
 
-2. 执行 RingQ.exe    <!--内置反沙箱等等等机制 执行后有些许延迟 耐心一会儿-->
+2. 将main.txt和RingQ.exe上传到目标机器，执行 RingQ.exe ~    <!--内置反沙箱等等等机制 执行后有些许延迟 耐心一会儿-->
 
    ```
    RingQ.exe
