@@ -18,14 +18,16 @@
 
 ### 使用方法：
 
-1. 你的任意exe工具，放在与Create.exe 同文件夹下运行即可，会生成一个main.txt文件。
+1. 你的任意exe工具，放在与Create.exe 同文件夹下运行即可，会生成一个混淆的main.txt文件。
+   Create.exe 此程序仅用于生成main.txt文件，可能存在报毒(c++你懂的 helloworld都报毒) 添加白名单or虚拟机断网使用都可以。
 
    ```
    Create.exe mimikatz.exe
    ```
 ![](https://github.com/T4y1oR/RingQ/blob/main/image-20240511163723965.png)
 
-2. 将main.txt和RingQ.exe上传到目标机器，执行 RingQ.exe ~    <!--内置反沙箱等等等机制 执行后有些许延迟 耐心一会儿-->
+2. 将main.txt和RingQ.exe上传到目标机器，执行 RingQ.exe ~
+   内置反沙箱等等等机制 执行后有些许延迟 耐心一会儿~
 
    ```
    RingQ.exe
