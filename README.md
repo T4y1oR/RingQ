@@ -60,6 +60,6 @@
 ### TODO
 
 - [ ] 不让我传fscan 我直接干掉AV？
-- [ ] 强化版unkook
+- [ ] 强化版unhook
 - [ ] ...
 
