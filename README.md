@@ -43,7 +43,7 @@
 ### **Windows Defender**（2024.05.11更新）
 ![](https://github.com/T4y1oR/RingQ/blob/main/image-20240511162705256.png)
 ### **火绒（2024.05.11更新）**
-![](https://github.com/T4y1oR/RingQ/blob/main/image-20240511162712447.png)
+![](https://github.com/T4y1oR/RingQ/blob/main/image-20240511162712448.png)
 
 
 
