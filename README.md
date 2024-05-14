@@ -40,7 +40,7 @@
 ![](https://github.com/T4y1oR/RingQ/blob/main/image-20240511163838236.png)
 ![](https://github.com/T4y1oR/RingQ/blob/main/image-20240511172315793.png)
 
-### **微步**（2024.05.11更新）
+### **微步**
 ![](https://github.com/T4y1oR/RingQ/blob/main/image-20240511162750465.png)
 ### **企业360**（2024.05.14更新）
 ![](https://github.com/T4y1oR/RingQ/blob/main/image-20240511162705202.png)
