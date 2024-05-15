@@ -29,6 +29,8 @@
    Create.exe mimikatz.exe
    ```
 ![](https://github.com/T4y1oR/RingQ/blob/main/image-20240511163723965.png)
+![](https://github.com/T4y1oR/RingQ/blob/main/image-20240511172315790.png)
+
 
 2. 将main.txt和RingQ.exe上传到目标机器，执行 RingQ.exe ~
 
