@@ -40,7 +40,7 @@
    ```
 ![](https://github.com/T4y1oR/RingQ/blob/main/image-20240511163838236.png)
 ![](https://github.com/T4y1oR/RingQ/blob/main/image-20240511172315793.png)
-![](https://github.com/T4y1oR/RingQ/blob/main/image-20240511172315790.png)
+![](https://github.com/T4y1oR/RingQ/blob/main/image-20240511172315791.png)
 
 ### **微步**
 ![](https://github.com/T4y1oR/RingQ/blob/main/image-20240511162750465.png)
