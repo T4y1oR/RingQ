@@ -28,7 +28,7 @@
    ```
    Create.exe mimikatz.exe
    ```
-![](https://github.com/T4y1oR/RingQ/blob/main/images/image-20240511163723965.png)
+   ![](https://github.com/T4y1oR/RingQ/blob/main/images/image-20240511163723965.png)
 
 
 2. 将main.txt和RingQ.exe上传到目标机器，执行 RingQ.exe ~
@@ -47,8 +47,9 @@
 ### **企业360**（2024.05.16更新）
 ![](https://github.com/T4y1oR/RingQ/blob/main/images/Snipaste_2024-05-16_11-54-45.png)
 ![](https://github.com/T4y1oR/RingQ/blob/main/images/image-20240511165253870.png)
-### **Windows Defender**（2024.05.14更新）
-![](https://github.com/T4y1oR/RingQ/blob/main/images/image-20240511162705256.png)
+
+### **Windows Defender**（2024.05.16更新）
+![](https://github.com/T4y1oR/RingQ/blob/main/images/Snipaste_2024-05-16_12-12-53.png)
 ### **火绒（2024.05.16更新）**
 ![](https://github.com/T4y1oR/RingQ/blob/main/images/Snipaste_2024-05-16_11-55-07.png)
 
@@ -61,7 +62,7 @@
 
 
 ### 更新日志
-2024.05.14 360QVM202报毒 已更新，这个报毒自行更换图标，添加签名...  ~~如果持续出现这个问题，考虑要不要出个专项bypass QVM202脚本~~ 
+2024.05.14-16 360QVM202报毒 已更新，这个报毒自行更换图标，添加签名...  ~~如果持续出现这个问题，考虑要不要出个专项bypass QVM202脚本~~ 
            Releases新增RingQ.exe原编译出的main.exe文件，方便大家自定义修改降熵
 
 2024.05.11 项目发布，微步纯绿 企业360云沙箱 火绒   ~~没传VT是为了能大家能用久点，大家随意~~
@@ -72,5 +73,6 @@
 
 - [ ] 不让我传fscan 我直接干掉AV？
 - [ ] 强化版unhook
+- [ ] bypass QVM202
 - [ ] ...
 
