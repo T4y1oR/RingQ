@@ -44,13 +44,13 @@
 
 ### **微步**
 ![](https://github.com/T4y1oR/RingQ/blob/main/images/image-20240511162750465.png)
-### **企业360**（2024.05.17更新）
-![](https://github.com/T4y1oR/RingQ/blob/main/images/Snipaste_2024-05-17_08-57-50.png)
+### **企业360**（2024.05.18更新）
+![](https://github.com/T4y1oR/RingQ/blob/main/images/Snipaste_2024-05-18_17-05-53.png)
 ![](https://github.com/T4y1oR/RingQ/blob/main/images/image-20240511165253870.png)
 
-### **Windows Defender**（2024.05.17更新）
-![](https://github.com/T4y1oR/RingQ/blob/main/images/Snipaste_2024-05-17_09-06-21.png)
-### **火绒（2024.05.17更新）**
+### **Windows Defender**（2024.05.18更新）
+![](https://github.com/T4y1oR/RingQ/blob/main/images/Snipaste_2024-05-18_17-08-18.png)
+### **火绒**
 ![](https://github.com/T4y1oR/RingQ/blob/main/images/Snipaste_2024-05-17_08-58-02.png)
 
 
@@ -62,7 +62,7 @@
 
 
 ### 更新日志
-2024.05.14-17 360QVM202报毒 已更新，这个报毒自行更换图标，添加签名...  ~~如果持续出现这个问题，多点star出个专项bypass QVM202脚本~~ 
+2024.05.14-18 360QVM202报毒 已更新，这个报毒自行更换图标，添加签名...  ~~如果持续出现这个问题，多点star出个专项bypass QVM202脚本~~ 
            Releases新增RingQ.exe原编译出的main.exe文件，方便大家自定义修改降熵
 
 2024.05.11 项目发布，微步纯绿 企业360云沙箱 火绒   ~~没传VT是为了能大家能用久点，大家随意~~
