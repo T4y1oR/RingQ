@@ -44,7 +44,7 @@
 
 ### **微步**
 ![](https://github.com/T4y1oR/RingQ/blob/main/images/image-20240511162750465.png)
-### **企业360**（2024.05.18更新）
+### **360**（2024.05.18更新）
 ![](https://github.com/T4y1oR/RingQ/blob/main/images/Snipaste_2024-05-18_17-05-53.png)
 ![](https://github.com/T4y1oR/RingQ/blob/main/images/image-20240511165253870.png)
 
