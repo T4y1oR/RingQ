@@ -50,8 +50,8 @@
 
 ### **Windows Defender**（2024.05.20更新）
 ![](https://github.com/T4y1oR/RingQ/blob/main/images/DF.png)
-### **火绒**
-![](https://github.com/T4y1oR/RingQ/blob/main/images/Snipaste_2024-05-17_08-58-02.png)
+### **火绒6.0**（2024.05.21更新）
+![](https://github.com/T4y1oR/RingQ/blob/main/images/huorong.png)
 
 
 
