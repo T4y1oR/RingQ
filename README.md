@@ -51,11 +51,11 @@
 ### **Windows Defender**（2024.05.23更新）
 ![](https://github.com/T4y1oR/RingQ/blob/main/images/DF.png)
 
-### **卡巴斯基**（2024.05.22更新）
-![](https://github.com/T4y1oR/RingQ/blob/main/images/kb.png)
-
 ### **火绒6.0**（2024.05.23更新）
 ![](https://github.com/T4y1oR/RingQ/blob/main/images/huorong.png)
+
+### **卡巴斯基**（2024.05.22更新）
+![](https://github.com/T4y1oR/RingQ/blob/main/images/kb.png)
 
 
 
