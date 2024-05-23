@@ -42,7 +42,7 @@
    ![](https://github.com/T4y1oR/RingQ/blob/main/images/image-20240511172315793.png)
    ![](https://github.com/T4y1oR/RingQ/blob/main/images/image-20240511172315791.png)
 
-### **微步**（2024.05.22更新）
+### **微步**
 ![](https://github.com/T4y1oR/RingQ/blob/main/images/image-20240511162750465.png)
 ### **360**（2024.05.22更新）
 ![](https://github.com/T4y1oR/RingQ/blob/main/images/360.png)
@@ -89,7 +89,7 @@
 
 
 ### 更新日志
-2024.05.22  QVM250发布，bypass 360QVM202
+2024.05.22  QVM250发布，bypass 360QVM202 持续报毒 生成后的问题多执行几次脚本
 
 2024.05.14-21 360QVM202报毒 已更新，这个报毒自行更换图标，添加签名...  ~~如果持续出现这个问题，多点star出个专项bypass QVM202脚本~~ 
            Releases新增RingQ.exe原编译出的main.exe文件，方便大家自定义修改降熵
