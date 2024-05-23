@@ -54,7 +54,7 @@
 ### **卡巴斯基**（2024.05.22更新）
 ![](https://github.com/T4y1oR/RingQ/blob/main/images/kb.png)
 
-### **火绒6.0**（2024.05.22更新）
+### **火绒6.0**（2024.05.23更新）
 ![](https://github.com/T4y1oR/RingQ/blob/main/images/huorong.png)
 
 
@@ -89,6 +89,8 @@
 
 
 ### 更新日志
+
+2024.05.13  360QVM202报毒 已更新，火绒报毒mimikatz 已更新
 2024.05.22  QVM250发布，bypass 360QVM202 持续报毒 生成后的文件多执行几次脚本
 
 2024.05.14-21 360QVM202报毒 已更新，这个报毒自行更换图标，添加签名...  ~~如果持续出现这个问题，多点star出个专项bypass QVM202脚本~~ 
