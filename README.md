@@ -44,11 +44,11 @@
 
 ### **微步**
 ![](https://github.com/T4y1oR/RingQ/blob/main/images/image-20240511162750465.png)
-### **360**（2024.05.22更新）
+### **360**（2024.05.23更新）
 ![](https://github.com/T4y1oR/RingQ/blob/main/images/360.png)
 ![](https://github.com/T4y1oR/RingQ/blob/main/images/image-20240511165253870.png)
 
-### **Windows Defender**（2024.05.22更新）
+### **Windows Defender**（2024.05.23更新）
 ![](https://github.com/T4y1oR/RingQ/blob/main/images/DF.png)
 
 ### **卡巴斯基**（2024.05.22更新）
@@ -86,6 +86,7 @@
 
 ## 项目仅供进行学习研究，切勿用于任何非法未授权的活动，如个人使用违反安全相关法律，后果与本人无关。
 
+## 定个小目标 坚持日更~ TODO真的在写了。。。
 
 
 ### 更新日志
@@ -108,4 +109,9 @@
 - [ ] 远程加载
 - [x] bypass QVM202
 - [ ] ...
+
+
+
+[![Stargazers over time](https://starchart.cc/T4y1oR/RingQ.svg?variant=adaptive)](https://starchart.cc/T4y1oR/RingQ)
+
 
