@@ -16,8 +16,9 @@ def banner():
            +-+ +-+ +-+ +-+ +-+ +-+
 
     Github: https://github.com/T4y1oR/RingQ
-          E.g: QVM250.exe main.exe
+         E.g: python3 QVM250.py main.exe
 ''')
+
 
 def creatico():
 
@@ -98,15 +99,29 @@ def add_random_icons(exename):
     command1 = [
         "ResourceHacker.exe",
         "-open", exename,
-        "-save", f"{savaname}.exe",
+        "-save", "output.exe",
         "-action", "addskip",
         "-res", f"{icon_folder}/{randomico1}",
         "-mask", f"ICONGROUP,{generate_random_string(15)}"
     ]
     subprocess.run(command1, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
+    time.sleep(2)
+
+    command2 = [
+        "ResourceHacker.exe",
+        "-open", "output.exe",
+        "-save", f"{savaname}.exe",
+        "-action", "addskip",
+        "-res", f"{icon_folder}/{randomico2}",
+        "-mask", f"ICONGROUP,{generate_random_string(15)}"
+    ]
+    subprocess.run(command2, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+
 
     set_version_info(f"{savaname}.exe")
+
+    os.remove("output.exe")
 
     return savaname
 
@@ -116,7 +131,7 @@ if __name__ == '__main__':
 
         exename = sys.argv[1]
         creatico()
-        time.sleep(3)
+        time.sleep(2)
         savaname = add_random_icons(exename)
         if not os.path.isfile(f"{savaname}.exe"):
             print("[-] 生成失败！ 请重新尝试~ ")
