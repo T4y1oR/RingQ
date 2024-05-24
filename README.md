@@ -44,15 +44,15 @@
 
 ### **微步**
 ![](https://github.com/T4y1oR/RingQ/blob/main/images/image-20240511162750465.png)
-### **360**（2024.05.23更新）
+### **360**（2024.05.24更新）
 ![](https://github.com/T4y1oR/RingQ/blob/main/images/360.png)
 ![](https://github.com/T4y1oR/RingQ/blob/main/images/image-20240511165253870.png)
 
-### **Windows Defender**（2024.05.23更新）
+### **Windows Defender**（2024.05.24更新）
 ![](https://github.com/T4y1oR/RingQ/blob/main/images/DF.png)
 
-### **火绒6.0**（2024.05.23更新）
-![](https://github.com/T4y1oR/RingQ/blob/main/images/huorong.png)
+### **火绒6.0**（2024.05.24更新）
+![](https://github.com/T4y1oR/RingQ/blob/main/images/hr.png)
 
 ### **卡巴斯基**（2024.05.22更新）
 ![](https://github.com/T4y1oR/RingQ/blob/main/images/kb.png)
@@ -90,6 +90,8 @@
 
 
 ### 更新日志
+
+2024.05.23 360QVM202报毒 已更新
 
 2024.05.23  360QVM202报毒 已更新，火绒报毒mimikatz 已更新
 
