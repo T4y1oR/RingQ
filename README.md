@@ -71,7 +71,7 @@
 
 <div align="center"><img src="images/Snipaste_2024-05-19_18-54-11.png" width="50%" ></div>
 
-### [QVM250](https://github.com/T4y1oR/RingQ/QVM250)（bypass 360 QVM202）
+### [QVM250](https://github.com/T4y1oR/RingQ/tree/main/QVM250)（bypass 360 QVM202）
 
 ![](images/QVM250.gif)
 
