@@ -67,12 +67,12 @@
 
 <u>*该报毒不是主程序源码被360干掉，此程序我在2024.01月份就一直在实战中使用。*</u>
 
-![](https://github.com/T4y1oR/RingQ/blob/main/images/Snipaste_2024-05-19_18-54-11.png)
 
-### QVM250（bypass 360 QVM202）
+<img src="images/Snipaste_2024-05-19_18-54-11.png" width="40%" >
 
-[](https://github.com/T4y1oR/RingQ/QVM250)
-![](https://github.com/T4y1oR/RingQ/blob/main/images/QVM250.gif)
+### [QVM250](https://github.com/T4y1oR/RingQ/QVM250)（bypass 360 QVM202）
+
+![](images/QVM250.gif)
 
 
 <u>*图标支持自定义，存放在QVM250/main文件夹内即可。*</u>
