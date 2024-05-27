@@ -37,25 +37,25 @@
    ```
    RingQ.exe
    ```
-   ![](https://github.com/T4y1oR/RingQ/blob/main/images/help.gif)
+   ![](images/help.gif)
 
-   ![](https://github.com/T4y1oR/RingQ/blob/main/images/image-20240511172315793.png)
-   ![](https://github.com/T4y1oR/RingQ/blob/main/images/image-20240511172315791.png)
+   ![](images/image-20240511172315793.png)
+   ![](images/image-20240511172315791.png)
 
 ### **微步**
-![](https://github.com/T4y1oR/RingQ/blob/main/images/image-20240511162750465.png)
+![](images/image-20240511162750465.png)
 ### **360**（2024.05.26更新）
-![](https://github.com/T4y1oR/RingQ/blob/main/images/360.png)
-![](https://github.com/T4y1oR/RingQ/blob/main/images/image-20240511165253870.png)
+![](images/360.png)
+![](images/image-20240511165253870.png)
 
 ### **Windows Defender**（2024.05.26更新）
-![](https://github.com/T4y1oR/RingQ/blob/main/images/DF.png)
+![](images/DF.png)
 
 ### **火绒6.0**（2024.05.26更新）
-![](https://github.com/T4y1oR/RingQ/blob/main/images/hr.png)
+![](images/hr.png)
 
 ### **卡巴斯基**（2024.05.22更新）
-![](https://github.com/T4y1oR/RingQ/blob/main/images/kb.png)
+![](images/kb.png)
 
 
 
@@ -63,12 +63,13 @@
 
 ### 添加签名、文件名、图标、属性信息、资源...
 
-![](https://github.com/T4y1oR/RingQ/blob/main/images/Snipaste_2024-05-19_18-15-10.png)
+<div align="center"><img src="images/Snipaste_2024-05-19_18-15-10.png" width="50%" ></div>
+
 
 <u>*该报毒不是主程序源码被360干掉，此程序我在2024.01月份就一直在实战中使用。*</u>
 
 
-<img src="images/Snipaste_2024-05-19_18-54-11.png" width="40%" >
+<div align="center"><img src="images/Snipaste_2024-05-19_18-54-11.png" width="50%" ></div>
 
 ### [QVM250](https://github.com/T4y1oR/RingQ/QVM250)（bypass 360 QVM202）
 
@@ -76,8 +77,6 @@
 
 
 <u>*图标支持自定义，存放在QVM250/main文件夹内即可。*</u>
-
-
 
 
 
@@ -91,16 +90,15 @@
 
 ### 更新日志
 
-2024.05.24 RingQ 360QVM202报毒 已更新，Create火绒报毒 已更新，QVM250失效 已更新
+2024.05.24  RingQ 360QVM202报毒 已更新，Create火绒报毒 已更新，QVM250失效 已更新
 
 2024.05.23  360QVM202报毒 已更新，火绒报毒mimikatz 已更新
 
 2024.05.22  QVM250发布，bypass 360QVM202 持续报毒 生成后的文件多执行几次脚本 (开源项目有效期短) 
 
-2024.05.14-21 360QVM202报毒 已更新，这个报毒自行更换图标，添加签名...  ~~如果持续出现这个问题，多点star出个专项bypass QVM202脚本~~ 
-           Releases新增RingQ.exe原编译出的main.exe文件，方便大家自定义修改降熵
+2024.05.14-21 360QVM202报毒 已更新，这个报毒自行更换图标，添加签名...  ~~如果持续出现这个问题，多点star出个专项bypass QVM202脚本~~  Releases新增RingQ.exe原编译出的main.exe文件，方便大家自定义修改降熵
 
-2024.05.11 项目发布，微步纯绿 企业360云沙箱 火绒   ~~没传VT是为了能大家能用久点，大家随意~~
+2024.05.11  项目发布，微步纯绿 企业360云沙箱 火绒 卡巴斯基  ~~没传VT是为了能大家能用久点，大家随意~~
 
 
 
@@ -115,5 +113,4 @@
 
 
 [![Stargazers over time](https://starchart.cc/T4y1oR/RingQ.svg?variant=adaptive)](https://starchart.cc/T4y1oR/RingQ)
-
 
