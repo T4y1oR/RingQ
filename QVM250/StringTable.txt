@@ -1,0 +1,5 @@
+STRINGTABLE
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+{
+  101, 	"C:\\Users\\T4y1oR\\Desktop\\main.txt"
+}

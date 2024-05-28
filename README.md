@@ -37,21 +37,30 @@
    ```
    RingQ.exe
    ```
-   ![](images/help.gif)
 
+#### 本地加载
+   ![](images/help-local.gif)
+
+#### 远程加载
+   ![](images/help-remote.gif)
+
+#### 绝对路径加载
+   ![](images/help-local-absolute.gif)
+   
+#### 举个栗子
    ![](images/image-20240511172315793.png)
    ![](images/image-20240511172315791.png)
 
 ### **微步**
 ![](images/image-20240511162750465.png)
-### **360**（2024.05.27更新）
+### **360**（2024.05.28更新）
 ![](images/360.png)
 ![](images/image-20240511165253870.png)
 
-### **Windows Defender**（2024.05.27更新）
+### **Windows Defender**（2024.05.28更新）
 ![](images/DF.png)
 
-### **火绒6.0**（2024.05.27更新）
+### **火绒6.0**（2024.05.28更新）
 ![](images/hr.png)
 
 ### **卡巴斯基**（2024.05.22更新）
@@ -90,6 +99,8 @@
 
 ### 更新日志
 
+2024.05.28  更新两种加载方式，远程加载and绝对路径加载 
+
 2024.05.27  360QVM202报毒 已更新
 
 2024.05.24  RingQ 360QVM202报毒 已更新，Create火绒报毒 已更新，QVM250失效 已更新
@@ -108,7 +119,7 @@
 
 - [ ] 不让我传fscan 直接干掉AV？
 - [ ] unhook
-- [ ] 远程加载
+- [x] 远程加载
 - [x] bypass QVM202
 - [ ] ...
 
