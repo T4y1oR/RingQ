@@ -46,6 +46,9 @@
 
 #### 绝对路径加载
    ![](images/help-local-absolute.gif)
+
+#### CS shellcode
+   ![](images/help-shellcode.gif)
    
 #### 举个栗子
    ![](images/image-20240511172315793.png)
@@ -99,7 +102,7 @@
 
 ### 更新日志
 
-2024.05.30  360QVM202报毒 已更新
+2024.05.30  360QVM202报毒 已更新，新增CS shellcode加载上线
 
 2024.05.28  更新两种加载方式，远程加载and绝对路径加载 
 
