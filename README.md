@@ -49,7 +49,7 @@
 
 #### CS shellcode
    ![](images/help-shellcode.gif)
-   
+
 #### 举个栗子
    ![](images/image-20240511172315793.png)
    ![](images/image-20240511172315791.png)
@@ -93,16 +93,16 @@
 
 
 
-## 承诺无任何后门，放心食用。后续如报毒属于正正正正正常现象，提issues（报毒截图and时间环境信息）耐心等待更新即可。tips:  Star后更新更快！
+## [已开源](https://github.com/T4y1oR/RingQ/tree/main/RingQ)，放心食用，编译后的RingQ.exe是经过bypass QVM202的 <u>帮助懒惰的脚本小子</u>  如不放心可自行编译使用[QVM250](https://github.com/T4y1oR/RingQ/tree/main/QVM250)即可。
+
+## 后续如报毒属于正正正正正常现象，提issues（报毒截图and时间环境信息）耐心等待更新即可。tips:  Star后更新更快！
 
 ## 项目仅供进行学习研究，切勿用于任何非法未授权的活动，如个人使用违反安全相关法律，后果与本人无关。
-
-## 定个小目标 坚持日更~ TODO真的在写了。。。
 
 
 ### 更新日志
 
-2024.05.31-06.02  360QVM202报毒 已更新
+2024.05.31-06.02  360QVM202报毒 已更新，<u>开源RingQ</u>  
 
 2024.05.30  360QVM202报毒 已更新，新增CS shellcode加载上线
 
