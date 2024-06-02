@@ -93,7 +93,7 @@
 
 
 
-## [已开源](https://github.com/T4y1oR/RingQ/tree/main/RingQ)，放心食用，编译后的RingQ.exe是经过bypass QVM202的 <u>帮助懒惰的脚本小子</u>  如不放心可自行编译使用[QVM250](https://github.com/T4y1oR/RingQ/tree/main/QVM250)即可。
+## [已开源](https://github.com/T4y1oR/RingQ/tree/main/RingQ)，放心食用，编译后的RingQ.exe是经过bypass QVM202的  ~~帮助懒惰的脚本小子~~   如不放心可自行编译使用[QVM250](https://github.com/T4y1oR/RingQ/tree/main/QVM250)即可。
 
 ## 后续如报毒属于正正正正正常现象，提issues（报毒截图and时间环境信息）耐心等待更新即可。tips:  Star后更新更快！
 
