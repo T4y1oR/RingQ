@@ -127,7 +127,7 @@
 
 ### TODO
 
-- [ ] 不让我传fscan 直接干掉AV？
+- [x] [不让我传fscan 直接干掉AV？](https://github.com/T4y1oR/LoveSysdiag)
 - [ ] unhook
 - [x] 远程加载
 - [x] bypass QVM202
