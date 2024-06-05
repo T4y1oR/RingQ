@@ -57,14 +57,14 @@
 ### **微步**
 ![](images/image-20240511162750465.png)
 
-### **360**（2024.06.04更新）
+### **360**（2024.06.05更新）
 ![](images/360.png)
 ![](images/image-20240511165253870.png)
 
-### **Windows Defender**（2024.06.04更新）
+### **Windows Defender**（2024.06.05更新）
 ![](images/DF.png)
 
-### **火绒6.0**（2024.06.04更新）
+### **火绒6.0**（2024.06.05更新）
 ![](images/hr.png)
 
 ### **卡巴斯基**
@@ -103,6 +103,8 @@
 
 ### 更新日志
 
+2024.06.05  CMD执行卡住BUG 已修复。
+
 2024.06.04  测试时遗留的StringTable 已删除。
 
 2024.05.31-06.04  360QVM202报毒 已更新，<u>开源RingQ</u>  
@@ -128,7 +130,7 @@
 ### TODO
 
 - [ ] unhook
-- [x] [不让我传fscan 直接干掉AV？](https://github.com/T4y1oR/LoveSysdiag)
+- [x] [不让我传fscan 直接干掉AV？ 推荐项目: LoveSysdiag](https://github.com/T4y1oR/LoveSysdiag)
 - [x] 远程加载
 - [x] bypass QVM202
 - [ ] ...
