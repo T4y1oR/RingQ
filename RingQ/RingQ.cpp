@@ -107,6 +107,14 @@ int obfuscate(int value) {
 }
 
 void obfuscatedLogic() {
+
+    std::string test1 = "Xe59NNNNWQ935bs8eCPKN4fjkK2ejcM3XDa8tiJ5e35WmYwFBjwReAn0yTWS9dtwT50Wabz87QnRRn0kEriNKYcYJKcBsAs5DK33k1Wmz2HwXjYz6ctb8f2G";
+    std::string test2 = "rSzmfGz9Wtn58JDM0atCEMP0ffJ6jzycdXsT8w0RkwGwMxYaWxKak81cd62KeSpWK7XatfadREKBi6zTHHx5jw95mD000BXhFEABQCm2EXT7cwzCzJeMrdkH";
+    std::string test3 = "pC64zZ013KbXS6hrZPJaXfjnd2prp5yc5rrYwF209Sb1Y0SW3bPGN7tWfJnb0DRYN7G9DpWryzMiBimQy1T4B6BfCeyj9b09arPZ6JbsT6R50AtDhSZ3wNWM";
+    std::string test4 = "AABJ9kpmBppfNYmh6F0zM5BsnMD2jz4GQQT2b8PZPBY5ch1Xp1HH3XMkZsnQT8rPG6D92WhhjNpM7JipTN7tWm3C0W8RPMAHmXy8Yx9aB5H0h6P1S0i59GY9";
+    std::string test4 = "https://www.baidu.com/";
+    std::string test4 = "https://www.hao123.com/";
+
     std::vector<int> numbers = { 1, 2, 3, 4, 5 };
 
     std::transform(numbers.begin(), numbers.end(), numbers.begin(), obfuscate);
@@ -156,7 +164,7 @@ void quickSort(int arr[], int left, int right) {
 }
 
 int decryptKey(int diff, int minValue, int maxValue) {
-    generateAndSortArray();
+    
     std::random_device rd;
     std::mt19937 gen(rd());
     std::uniform_int_distribution<int> dis(minValue, maxValue);
