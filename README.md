@@ -23,7 +23,7 @@
 
 1. 你的任意exe工具，放在与Create.exe 同文件夹下运行即可，会生成一个混淆的main.txt文件。
    
-   <u>*Create.exe 此程序仅用于生成main.txt文件，可能存在报毒(c++你懂的) 添加白名单or虚拟机断网使用都可以。*</u>
+   <u>*Create.exe 此程序仅用于混淆生成main.txt文件，可能存在报毒(c++你懂的) 添加白名单or虚拟机断网使用都可以。*</u>
 
    ```
    Create.exe mimikatz.exe
@@ -32,7 +32,7 @@
 
 2. 将main.txt和RingQ.exe上传到目标机器，执行 RingQ.exe ~
 
-   内置反沙箱等等等机制 执行后有些许延迟 耐心一会儿~
+   内置反沙箱等 执行后有些许延迟 耐心一会儿~
 
    ```
    RingQ.exe
@@ -136,7 +136,6 @@
 ### TODO
 
 - [ ] unhook
-- [ ] 动态加载
 - [x] [不让我传fscan 直接干掉AV？ 推荐项目: LoveSysdiag](https://github.com/T4y1oR/LoveSysdiag)
 - [x] 远程加载
 - [x] bypass QVM202
