@@ -355,6 +355,7 @@ int main() {
         }
         else {
             cout << "No Find main,txt and StringTable ..." << endl;
+
             std::cout << "\n";
 
             for (int i = 1; i <= 9; ++i) {
