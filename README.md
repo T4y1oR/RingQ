@@ -57,14 +57,14 @@
 ### **微步**
 ![](images/image-20240511162750465.png)
 
-### **360**（2024.06.21更新）
+### **360**（2024.06.24更新）
 ![](images/360.png)
 ![](images/360sandbox.png)
 
-### **Windows Defender**（2024.06.21更新）
+### **Windows Defender**（2024.06.24更新）
 ![](images/DF.png)
 
-### **火绒6.0**（2024.06.21更新）
+### **火绒6.0**（2024.06.24更新）
 ![](images/hr.png)
 
 
@@ -100,6 +100,8 @@
 
 
 ### 更新日志
+
+2024.06.24  360QVM202报毒 已更新，火绒标记Hacktools 已更新。
 
 2024.06.21  360QVM202报毒 已更新，修改部分代码逻辑。
 
@@ -138,7 +140,7 @@
 ### TODO
 
 - [ ] unhook
-- [x] [不让我传fscan 直接干掉AV？ 推荐项目: LoveSysdiag](https://github.com/T4y1oR/LoveSysdiag)
+- [x] [不让我传fscan 直接干掉AV？ 项目: LoveSysdiag](https://github.com/T4y1oR/LoveSysdiag)
 - [x] 远程加载
 - [x] bypass QVM202
 - [ ] ...
