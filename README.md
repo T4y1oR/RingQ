@@ -28,7 +28,8 @@ RingQ 免杀框架，简单修改源码 加载方式、加密混淆、执行逻�
    <u>*Create.exe 此程序仅用于混淆生成main.txt文件，可能存在报毒(c++你懂的) 添加白名单or虚拟机断网使用都可以。*</u>
 
    ```
-   Create.exe mimikatz.exe
+   Create.exe fscan.exe      	 // EXE
+   Create.exe CobaltStrike.bin  // CS shellcode
    ```
 
 
@@ -91,9 +92,9 @@ RingQ 免杀框架，简单修改源码 加载方式、加密混淆、执行逻�
 
 
 
-### EXE2Shellcode（将你的exe程序转换成Shellcode）
+### [EXE2Shellcode.exe](https://github.com/T4y1oR/RingQ/blob/main/EXE2Shellcode.exe)（将你的exe工具转换成Shellcode）
 
-该程序可以将你需要免杀的exe工具转换成Shellcode，和`Create.exe exe fscan.exe`作用相同。
+该程序可以将你需要免杀的exe工具转换成Shellcode，和`Create.exe fscan.exe`作用相同。
 
 区别在于Create.exe内置XOR混淆，可以直接配合RingQ.exe程序直接使用。
 
@@ -114,7 +115,7 @@ EXE2Shellcode.exe生成后的Shellcode需要自行混淆+修改RingQ源码加载
 
 ### 更新日志
 
-2024.06.27  新增EXE转换成Shellcode工具，支持x32和x64   <u>EXE2Shellcode.exe</u> 
+2024.06.27  新增EXE转换成Shellcode工具，支持x32和x64    [EXE2Shellcode.exe](https://github.com/T4y1oR/RingQ/blob/main/EXE2Shellcode.exe)
 
 2024.06.26  360QVM202报毒 已更新。
 
