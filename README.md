@@ -28,8 +28,10 @@ RingQ 免杀框架，简单修改源码 加载方式、加密混淆、执行逻�
    <u>*Create.exe 此程序仅用于混淆生成main.txt文件，可能存在报毒(c++你懂的) 添加白名单or虚拟机断网使用都可以。*</u>
 
    ```
-   Create.exe fscan.exe      	 // EXE
-   Create.exe CobaltStrike.bin  // CS shellcode
+   Create.exe fscan.exe      
+   ```
+   ```
+   Create.exe CobaltStrike.bin  
    ```
 
 
