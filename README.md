@@ -23,7 +23,7 @@ RingQ 免杀框架，简单修改源码 加载方式、加密混淆、执行逻�
 
 ### 使用方法：
 
-1. 你的任意exe工具，放在与Create.exe 同文件夹下运行即可，会生成一个混淆的main.txt文件。
+1. 将需要免杀的exe工具，放在与Create.exe 同文件夹下运行即可，会生成一个混淆的main.txt文件。
    
    <u>*Create.exe 此程序仅用于混淆生成main.txt文件，可能存在报毒(c++你懂的) 添加白名单or虚拟机断网使用都可以。*</u>
 
@@ -59,14 +59,14 @@ RingQ 免杀框架，简单修改源码 加载方式、加密混淆、执行逻�
 ### **微步**
 ![](images/image-20240511162750465.png)
 
-### **360**（2024.06.26更新）
+### **360**（2024.06.27更新）
 ![](images/360.png)
 ![](images/360sandbox.png)
 
-### **Windows Defender**（2024.06.26更新）
+### **Windows Defender**（2024.06.27更新）
 ![](images/DF.png)
 
-### **火绒6.0**（2024.06.26更新）
+### **火绒6.0**（2024.06.27更新）
 ![](images/hr.png)
 
 
@@ -87,8 +87,19 @@ RingQ 免杀框架，简单修改源码 加载方式、加密混淆、执行逻�
 
 ![](images/QVM250.gif)
 
-
 <u>*图标支持自定义，存放在QVM250/main文件夹内即可。*</u>
+
+
+
+### EXE2Shellcode（将你的exe程序转换成Shellcode）
+
+该程序可以将你需要免杀的exe工具转换成Shellcode，和`Create.exe exe fscan.exe`作用相同。
+
+区别在于Create.exe内置XOR混淆，可以直接配合RingQ.exe程序直接使用。
+
+EXE2Shellcode.exe生成后的Shellcode需要自行混淆+修改RingQ源码加载使用  ~~或者配合你自己的Shellcode加载器使用~~
+
+<div align="center"><img src="images/EXE2Shellcode.png" width="80%" ></div>
 
 
 
@@ -102,6 +113,8 @@ RingQ 免杀框架，简单修改源码 加载方式、加密混淆、执行逻�
 
 
 ### 更新日志
+
+2024.06.27  新增EXE转换成Shellcode工具，支持x32和x64   <u>EXE2Shellcode.exe</u> 
 
 2024.06.26  360QVM202报毒 已更新。
 
