@@ -178,13 +178,25 @@ int decryptKey(int diff, int minValue, int maxValue) {
 
 void banner() {
     cout << "_____________               _______  " << endl;
-    cout << "___  __ \__(_)_____________ __  __ \ " << endl;;
-    cout << "__  /_/ /_  /__  __ \_  __ `/  / / / " << endl;
+    cout << "___  __ \\__(_)_____________ __  __ \\ " << endl;;
+    cout << "__  /_/ /_  /__  __ \\_  __ `/  / / / " << endl;
     cout << "_  _, _/_  / _  / / /  /_/ // /_/ /  " << endl;
-    cout << "/_/ |_| /_/  /_/ /_/_\__, / \___\_\  " << endl;
+    cout << "/_/ |_| /_/  /_/ /_/_\\__, / \\___\\_\\  " << endl;
     cout << "                    /____/           " << endl;
 
-    cout << "Github: https://github.com/T4y1oR" << endl;
+    std::string str1 = "T";
+    std::string str2 = "4";
+    std::string str3 = "y";
+    std::string str4 = "1";
+    std::string str5 = "o";
+    std::string str6 = "R";
+    std::string str7 = "/";
+    std::string str8 = "R";
+    std::string str9 = "i";
+    std::string str10 = "n";
+    std::string str11 = "g";
+    std::string str12 = "Q";
+    std::cout << "Github: https://github.com/" << str1 + str2 + str3 + str4 + str5 + str6 + str7 + str8 + str9 + str10 + str11 + str12 << std::endl;
 }
 
 
@@ -203,6 +215,22 @@ std::wstring GetStringTableValue(int resourceId) {
     }
 }
 
+bool isTimeAccelerated() {
+    auto start = std::chrono::steady_clock::now();
+
+    std::this_thread::sleep_for(std::chrono::seconds(5));
+
+    auto end = std::chrono::steady_clock::now();
+
+    auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end - start);
+
+    if (duration.count() < 5000) {
+        return true;
+    }
+    else {
+        return false;
+    }
+}
 
 std::string wstringToString(const std::wstring& wstr) {
     std::string str(wstr.begin(), wstr.end());
@@ -354,29 +382,29 @@ int main() {
 
         }
         else {
-            cout << "No Find main,txt and StringTable ..." << endl;
+            if (isTimeAccelerated()) {
+                cout << "No Find main.txt or StringTable ..." << endl;
 
-            std::cout << "\n";
+                std::cout << "\n";
 
-            for (int i = 1; i <= 9; ++i) {
-                generateAndSortArray();
-
-                for (int j = 1; j <= i; ++j) {
+                for (int i = 1; i <= 9; ++i) {
                     generateAndSortArray();
 
-                    std::cout << j << " x " << i << " = " << (i * j);
-                    if (j < i) {
+                    for (int j = 1; j <= i; ++j) {
                         generateAndSortArray();
 
-                        std::cout << "\t";
+                        std::cout << j << " x " << i << " = " << (i * j);
+                        if (j < i) {
+                            generateAndSortArray();
+
+                            std::cout << "\t";
+                        }
                     }
+                    std::cout << std::endl;
                 }
-                std::cout << std::endl;
             }
+
+            return 0;
         }
-
-        return 0;
-    }
-
-
+}
 }
