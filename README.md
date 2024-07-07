@@ -117,6 +117,8 @@ EXE2Shellcode.exe生成后的Shellcode需要自行混淆+修改RingQ源码加载
 
 ### 更新日志
 
+2024.07.07  修复EXE2Shellcode BUG
+
 2024.07.04  360QVM202报毒 已更新，修改小部分代码特征 
 
 2024.07.01  360QVM202报毒 已更新，火绒标记Hacktools 已更新
