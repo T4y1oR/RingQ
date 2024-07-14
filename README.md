@@ -117,18 +117,9 @@ EXE2Shellcode.exe生成后的Shellcode需要自行混淆+修改RingQ源码加载
 
 
 
-**直接下载单个文件[RingQ.exe](https://github.com/T4y1oR/RingQ/raw/main/RingQ.exe)会拦截报毒 ，建议项目主页Code-Download ZIP。**
-
-<div align="center"><img src="images/chrome360.png" width="80%" ></div>
-
-<div align="center"><img src="images/codezip.png" width="80%" ></div>
-
-
-## 
-
 ### 更新日志
 
-2024.07.14  360标记Trojan 木马 已更新 ，更新README.md
+2024.07.14  360标记Trojan 木马 已更新
 
 2024.07.11  360标记Trojan 木马 已更新，火绒标记Hacktools 已更新 **（可以不爱请别伤害 @360 @火绒）**
 
