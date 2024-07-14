@@ -1,0 +1,20 @@
+﻿cl : 命令行  warning D9025: 正在重写“/sdl”(用“/GS-”)
+  RingQ.cpp
+D:\GitHub\RingQ\RingQ\RingQ.cpp(31,25): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\GitHub\RingQ\RingQ\RingQ.cpp(207,34): warning C4838: 从“int”转换到“char”需要收缩转换
+D:\GitHub\RingQ\RingQ\RingQ.cpp(207,34): warning C4309: “初始化”: 截断常量值
+D:\GitHub\RingQ\RingQ\RingQ.cpp(207,40): warning C4838: 从“int”转换到“char”需要收缩转换
+D:\GitHub\RingQ\RingQ\RingQ.cpp(207,40): warning C4309: “初始化”: 截断常量值
+D:\GitHub\RingQ\RingQ\RingQ.cpp(287,19): warning C4244: “初始化”: 从“_Rep”转换到“int”，可能丢失数据
+D:\GitHub\RingQ\RingQ\RingQ.cpp(287,19): warning C4244:         with
+D:\GitHub\RingQ\RingQ\RingQ.cpp(287,19): warning C4244:         [
+D:\GitHub\RingQ\RingQ\RingQ.cpp(287,19): warning C4244:             _Rep=__int64
+D:\GitHub\RingQ\RingQ\RingQ.cpp(287,19): warning C4244:         ]
+D:\Microsoft\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\xutility(4672,18): warning C4244: “=”: 从“const wchar_t”转换到“char”，可能丢失数据
+  正在生成代码
+D:\GitHub\RingQ\RingQ\RingQ.cpp(177): warning C4715: “decryptKey”: 不是所有的控件路径都返回值
+  572 of 583 functions (98.1%) were compiled, the rest were copied from previous compilation.
+    4 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  RingQ.vcxproj -> D:\GitHub\RingQ\RingQ\x64\Release\RingQ.exe
