@@ -177,8 +177,9 @@ EXE2Shellcode.exe生成后的Shellcode需要自行混淆+修改RingQ源码加载
 
 ### TODO
 
-- [x] unhook <!--暂不开源-->
-- [x] syscalls <!--暂不开源-->
+- [x] unhook ~~暂不开源~~
+- [x] syscalls  ~~暂不开源~~
+- [x] 反沙箱 
 - [x] [致盲火绒 - LoveSysdiag](https://github.com/T4y1oR/LoveSysdiag) 
 - [x] 远程加载
 - [x] bypass QVM202
