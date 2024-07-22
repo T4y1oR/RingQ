@@ -62,14 +62,14 @@ RingQ 免杀框架，简单修改源码 加载方式、加密混淆、执行逻�
 ### **微步**
 ![](images/image-20240511162750465.png)
 
-### **360**（2024.07.21更新）
+### **360**（2024.07.22更新）
 ![](images/360.png)
 ![](images/360sandbox.png)
 
-### **Windows Defender**（2024.07.21更新）
+### **Windows Defender**（2024.07.22更新）
 ![](images/DF.png)
 
-### **火绒6.0**（2024.07.21更新）
+### **火绒6.0**（2024.07.22更新）
 ![](images/hr.png)
 
 
@@ -81,10 +81,6 @@ RingQ 免杀框架，简单修改源码 加载方式、加密混淆、执行逻�
 <div align="center"><img src="images/Snipaste_2024-05-19_18-15-10.png" width="50%" ></div>
 
 
-<u>*该报毒不是主程序源码被360干掉，此程序我在2024.01月份就一直在实战中使用。*</u>
-
-
-<div align="center"><img src="images/Snipaste_2024-05-19_18-54-11.png" width="50%" ></div>
 
 ### [QVM250](https://github.com/T4y1oR/RingQ/tree/main/QVM250)（bypass 360 QVM202）
 
@@ -119,7 +115,7 @@ EXE2Shellcode.exe生成后的Shellcode需要自行混淆+修改RingQ源码加载
 
 ### 更新日志
 
-2024.07.21  360QVM202报毒 已更新
+2024.07.22  360QVM202报毒 已更新
 
 2024.07.17  360QVM202报毒 已更新，火绒标记Hacktools 已更新 **（可以不爱请别伤害 @360 @火绒）**
 
