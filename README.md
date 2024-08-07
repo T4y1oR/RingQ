@@ -62,14 +62,14 @@ RingQ 免杀框架，简单修改源码 加载方式、加密混淆、执行逻�
 ### **微步**
 ![](images/image-20240511162750465.png)
 
-### **360**（2024.08.02更新）
+### **360**（2024.08.07更新）
 ![](images/360.png)
 ![](images/360sandbox.png)
 
-### **Windows Defender**（2024.08.02更新）
+### **Windows Defender**（2024.08.07更新）
 ![](images/df.png)
 
-### **火绒6.0**（2024.08.02更新）
+### **火绒6.0**（2024.08.07更新）
 ![](images/hr.png)
 
 
@@ -94,7 +94,7 @@ RingQ 免杀框架，简单修改源码 加载方式、加密混淆、执行逻�
 
 该程序可以将你需要免杀的exe工具转换成Shellcode，和`Create.exe fscan.exe`作用相同。
 
-区别在于Create.exe内置XOR混淆，可以直接配合RingQ.exe程序直接使用。
+区别在于Create.exe内置自定义加密混淆，可以直接配合RingQ.exe程序直接使用。
 
 EXE2Shellcode.exe生成后的Shellcode需要自行混淆+修改RingQ源码加载使用  ~~或者配合你自己的Shellcode加载器使用~~
 
@@ -107,13 +107,19 @@ EXE2Shellcode.exe生成后的Shellcode需要自行混淆+修改RingQ源码加载
 
 ## [已开源](https://github.com/T4y1oR/RingQ/tree/main/RingQ)，放心食用，编译后的RingQ.exe是经过bypass QVM202的  ~~帮助懒惰的脚本小子~~   如不放心可自行编译使用[QVM250](https://github.com/T4y1oR/RingQ/tree/main/QVM250)即可。
 
-## 后续如报毒属于正正正正正常现象，提issues（报毒截图and时间环境信息）耐心等待更新即可。tips:  Star后更新更快！
+## 后续如报毒属于正正正正正常现象，提issues（报毒截图and时间环境信息）耐心等待更新即可。
+
+## 本项目长期维护纯为爱发电 水平和精力有限 如果对你有一丢丢帮助 点个Star 别逼我求你  T~T
+
+## tips:  Star后更新更快！
 
 ## 项目仅供进行学习研究，切勿用于任何非法未授权的活动，如个人使用违反安全相关法律，后果与本人无关。
 
 
 
 ### 更新日志
+
+2024.08.07  火绒 DF 报毒 已更新，修改小部分代码特征和执行异常
 
 2024.08.02  360QVM202报毒 已更新
 
@@ -139,7 +145,7 @@ EXE2Shellcode.exe生成后的Shellcode需要自行混淆+修改RingQ源码加载
 
 2024.06.27  新增EXE转换成Shellcode工具，支持x32和x64    [EXE2Shellcode.exe](https://github.com/T4y1oR/RingQ/blob/main/EXE2Shellcode.exe)
 
-2024.06.26  360QVM202报毒 已更新。
+2024.06.26  360QVM202报毒 已更新
 
 2024.06.24  360QVM202报毒 已更新，火绒标记Hacktools 已更新
 
@@ -147,7 +153,7 @@ EXE2Shellcode.exe生成后的Shellcode需要自行混淆+修改RingQ源码加载
 
 2024.06.20  360QVM202报毒 已更新，修复执行无响应
 
-2024.06.19  更新Banner，优化部分源码。  
+2024.06.19  更新Banner，优化部分源码
 
 2024.06.18  360QVM202报毒 已更新。 ~~最近有点忙啊啊啊~~
 
