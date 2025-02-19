@@ -126,7 +126,7 @@ EXE2Shellcode.exe生成后的Shellcode需要自行混淆+修改RingQ源码加载
 
 2025.02.19 
 
-- **RingQ 计划在某活动期间恢复更新 ~**
+- ###RingQ 计划在某活动期间恢复更新 ~
 - 修复QVM250 BUG 
 - 新增[QVM250](https://github.com/T4y1oR/RingQ/tree/main/QVM250) 批量生成伪造资源功能
 
