@@ -87,6 +87,14 @@ RingQ 免杀框架，简单修改源码 加载方式、加密混淆、执行逻�
 
 <u>*图标支持自定义，存放在QVM250/main文件夹内即可。*</u>
 
+**批量生成伪造资源**
+
+```
+python3 QVM250.py main.exe 5
+```
+
+<div align="center"><img src="images/QVM250.png" width="100%" ></div>
+
 
 
 ### [EXE2Shellcode.exe](https://github.com/T4y1oR/RingQ/blob/main/EXE2Shellcode.exe)（将你的exe工具转换成Shellcode）
@@ -98,8 +106,6 @@ RingQ 免杀框架，简单修改源码 加载方式、加密混淆、执行逻�
 EXE2Shellcode.exe生成后的Shellcode需要自行混淆+修改RingQ源码加载使用  ~~或者配合你自己的Shellcode加载器使用~~
 
 <div align="center"><img src="images/EXE2Shellcode.png" width="80%" ></div>
-
-
 
 
 
@@ -118,7 +124,15 @@ EXE2Shellcode.exe生成后的Shellcode需要自行混淆+修改RingQ源码加载
 
 ### 更新日志
 
-2024.08.30 360QVM202报毒 已更新
+2025.02.19 
+
+- **RingQ 计划在某活动期间恢复更新 ~**
+- 修复QVM250 BUG 
+- 新增[QVM250](https://github.com/T4y1oR/RingQ/tree/main/QVM250) 批量生成伪造资源功能
+
+-------------------------------------------------------------------------------------------
+
+2024.09.01 360QVM202报毒 已更新
 
 2024.08.30 火绒标记Hacktools 已更新，修复绝对路径加载 BUG
 

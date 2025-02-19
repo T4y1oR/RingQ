@@ -1,12 +1,11 @@
-import os
-import sys
-import random
-import subprocess
-import string
 import hashlib
-from PIL import Image
-import pywin32_system32
+import os
+import string
+import subprocess
+import sys
 import time
+from PIL import Image
+import random
 
 
 def banner():
@@ -16,7 +15,11 @@ def banner():
            +-+ +-+ +-+ +-+ +-+ +-+
 
     Github: https://github.com/T4y1oR/RingQ
-         E.g: python3 QVM250.py main.exe
+    
+    Step 1: Copy your like icos to ./main folder
+    Step 2: Generate 5 fake resource exe for bypass QVM202
+    
+    E.g: python3 QVM250.py main.exe 5 
 ''')
 
 
@@ -33,10 +36,10 @@ def creatico():
         if filename.endswith('.ico'):
             with Image.open(os.path.join(main_folder, filename)) as image:
                 try:
-                    # random_width = random.randint(1, 48)
-                    # random_height = random.randint(1, 48)
+                    random_width = random.randint(10, 100)
+                    random_height = random.randint(10, 100)
 
-                    resized_image = image.resize((48, 48))
+                    resized_image = image.resize((random_width, random_height))
 
                     pixel_data = list(resized_image.getdata())
                     modified_pixel_data = [(r + random.randint(-11, 11), g + random.randint(-11, 11), b + random.randint(-11, 11), a) for (r, g, b, a) in pixel_data]
@@ -52,8 +55,6 @@ def creatico():
                     new_filename = os.path.join(random_folder, f"{hash_value}.ico")
                     modified_image.save(new_filename)
 
-                    # print(f"已处理文件: {filename} -> {new_filename}")
-
                 except:
                     pass
 
@@ -65,23 +66,24 @@ def generate_random_string(length):
 
 def set_version_info(exe_path):
     rcedit_path = "rcedit-x64.exe"
-    file_description = generate_random_string(50)
-    company_name = generate_random_string(50)
-    legal_copyright = generate_random_string(50)
-    product_name = generate_random_string(50)
+    FileDescription = generate_random_string(50)
+    CompanyName = generate_random_string(50)
+    LegalCopyright = generate_random_string(50)
+    ProductName = generate_random_string(50)
     file_version = "0.0.1"
+    FileVersion = "0.0.1"
     product_version = "0.0.1"
 
     command = [
         rcedit_path,
         exe_path,
-        "--set-version-string", "FileDescription", file_description,
+        "--set-version-string", "FileDescription", FileDescription,
+        "--set-version-string", "CompanyName", CompanyName,
+        "--set-version-string", "LegalCopyright", LegalCopyright,
+        "--set-version-string", "ProductName", ProductName,
         "--set-file-version", file_version,
-        "--set-product-version", product_version,
-        "--set-version-string", "CompanyName", company_name,
-        "--set-version-string", "LegalCopyright", legal_copyright,
-        "--set-version-string", "FileVersion", "3.10",
-        "--set-version-string", "ProductName", product_name
+        "--set-version-string", "FileVersion", FileVersion,
+        "--set-product-version", product_version
     ]
 
     subprocess.run(command, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
@@ -102,7 +104,7 @@ def add_random_icons(exename):
         "-save", "output.exe",
         "-action", "addskip",
         "-res", f"{icon_folder}/{randomico1}",
-        "-mask", f"ICONGROUP,{generate_random_string(15)}"
+        "-mask", f"ICONGROUP,{random.choice(string.ascii_lowercase) + generate_random_string(15)}"
     ]
     subprocess.run(command1, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
@@ -114,10 +116,9 @@ def add_random_icons(exename):
         "-save", f"{savaname}.exe",
         "-action", "addskip",
         "-res", f"{icon_folder}/{randomico2}",
-        "-mask", f"ICONGROUP,{generate_random_string(15)}"
+        "-mask", f"ICONGROUP,{random.choice(string.ascii_lowercase) + generate_random_string(15)}"
     ]
     subprocess.run(command2, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-
 
     set_version_info(f"{savaname}.exe")
 
@@ -127,17 +128,20 @@ def add_random_icons(exename):
 
 if __name__ == '__main__':
     banner()
-    try:
 
+    try:
         exename = sys.argv[1]
+        gennum = sys.argv[2]
         creatico()
         time.sleep(2)
-        savaname = add_random_icons(exename)
-        if not os.path.isfile(f"{savaname}.exe"):
-            print("[-] 生成失败！ 请重新尝试~ ")
-        else:
-            print("[+] 伪造资源成功！")
-            print('[+] Enjoy! ' + f"{savaname}.exe")
-
+        for i in range(int(gennum)):
+            print("[*] Generating num [" + str(i + 1) + "]")
+            savaname = add_random_icons(exename)
+            if not os.path.isfile(f"{savaname}.exe"):
+                print("[-] Failed! Please try again")
+            else:
+                print("[+] Successfully forged resources")
+                print('[+] Enjoy! ' + f"{savaname}.exe")
+                print("---------------------------------")
     except:
         pass
